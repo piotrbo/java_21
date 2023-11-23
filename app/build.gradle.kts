@@ -8,10 +8,9 @@ plugins {
 
 dependencies {
     implementation("org.apache.commons:commons-text")
-    implementation(project(":utilities"))
 }
 
 application {
     // Define the main class for the application.
-    mainClass.set("piotrbo.app.App")
+    mainClass.set("piotrbo.sample.LocalVariablesSample")
 }
